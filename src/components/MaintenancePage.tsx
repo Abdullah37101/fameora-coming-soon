@@ -83,19 +83,8 @@ const MaintenancePage = () => {
               </div>
             </div>
 
-            {/* Footer Note */}
-            <div className="pt-6 border-t border-border/30">
-              <p className="text-sm text-muted-foreground">
-                This page will automatically refresh when maintenance is complete.
-              </p>
-            </div>
           </div>
         </Card>
-
-        {/* Auto-refresh script indicator */}
-        <div className="mt-8 text-xs text-muted-foreground opacity-60">
-          Page will refresh automatically every 5 minutes
-        </div>
       </div>
     </div>
   );
