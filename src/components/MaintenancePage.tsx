@@ -55,15 +55,6 @@ const MaintenancePage = () => {
               </div>
             </div>
 
-            {/* Expected Time */}
-            <div className="bg-muted/50 rounded-lg p-6 border border-border/30">
-              <h3 className="font-semibold text-foreground mb-2">Expected Downtime</h3>
-              <p className="text-muted-foreground">
-                We expect to be back online within the next <span className="font-semibold text-brand-teal">2-4 hours</span>.
-                All data is safe and secure.
-              </p>
-            </div>
-
             {/* Contact Information */}
             <div className="space-y-4">
               <h3 className="font-semibold text-foreground">Stay Connected</h3>
