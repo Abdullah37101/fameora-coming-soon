@@ -68,9 +68,14 @@ const MaintenancePage = () => {
             <div className="space-y-4">
               <h3 className="font-semibold text-foreground">Stay Connected</h3>
               <div className="flex justify-center">
-                <Button variant="outline" size="sm" className="border-brand-teal/20 hover:border-brand-teal hover:bg-brand-teal/5">
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="border-brand-teal/20 hover:border-brand-teal hover:bg-brand-teal/5"
+                  onClick={() => window.location.href = 'mailto:team@fameora.site'}
+                >
                   <Mail className="w-4 h-4 mr-2" />
-                  team@fameora.site
+                  Email Support
                 </Button>
               </div>
             </div>
