@@ -71,7 +71,7 @@ const MaintenancePage = () => {
                 <Button 
                   variant="outline" 
                   size="sm" 
-                  className="border-brand-teal/20 hover:border-brand-teal hover:bg-brand-teal/5"
+                  className="border-brand-teal/20 hover:border-brand-teal hover:bg-brand-teal/5 hover:text-brand-teal transition-all duration-200"
                   onClick={() => window.location.href = 'mailto:team@fameora.site'}
                 >
                   <Mail className="w-4 h-4 mr-2" />
