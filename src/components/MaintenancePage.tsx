@@ -67,18 +67,10 @@ const MaintenancePage = () => {
             {/* Contact Information */}
             <div className="space-y-4">
               <h3 className="font-semibold text-foreground">Stay Connected</h3>
-              <div className="flex flex-wrap justify-center gap-4">
+              <div className="flex justify-center">
                 <Button variant="outline" size="sm" className="border-brand-teal/20 hover:border-brand-teal hover:bg-brand-teal/5">
                   <Mail className="w-4 h-4 mr-2" />
-                  Email Support
-                </Button>
-                <Button variant="outline" size="sm" className="border-brand-teal/20 hover:border-brand-teal hover:bg-brand-teal/5">
-                  <Twitter className="w-4 h-4 mr-2" />
-                  Follow Updates
-                </Button>
-                <Button variant="outline" size="sm" className="border-brand-teal/20 hover:border-brand-teal hover:bg-brand-teal/5">
-                  <Globe className="w-4 h-4 mr-2" />
-                  Status Page
+                  team@fameora.site
                 </Button>
               </div>
             </div>
