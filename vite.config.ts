@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/fameora-coming-soon/", // 👈 REQUIRED for GitHub Pages
+  base: "/fameora-coming-soon/",
   server: {
     host: "::",
     port: 8080,
