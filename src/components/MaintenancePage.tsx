@@ -15,7 +15,7 @@ const MaintenancePage = () => {
         {/* Logo */}
         <div className="mb-12 animate-float">
           <img 
-            src="/lovable-uploads/29833840-f39f-4781-b73a-5a2557b9b9e1.png" 
+            src="/uploads/logo.webp" 
             alt="FAMEORA Logo" 
             className="w-32 h-32 mx-auto drop-shadow-lg animate-pulse-glow"
           />
